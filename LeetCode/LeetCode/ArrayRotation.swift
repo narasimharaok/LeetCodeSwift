@@ -55,6 +55,13 @@ func rotate2(_ array:[Int]?, _ pos: Int?) {
     }
 }
 
+/*Can we do this in O(1) space and in O(n) time? The following solution does. Assuming we are given 1,2,3,4,5,6 and order 2. The basic idea is:
+1. Divide the array two parts: 1,2,3,4 and 5, 6
+2. Rotate first part: 4,3,2,1,5,6
+3. Rotate second part: 4,3,2,1,6,5
+4. Rotate the whole array: 5,6,1,2,3,4
+*/
+
 func rotate(_ array: inout [Int], _ pos: Int) {
     if(array.count < 0 || pos == 0) {
         return

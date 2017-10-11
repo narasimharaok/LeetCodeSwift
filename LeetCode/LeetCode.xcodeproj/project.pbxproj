@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		43B422751F8D8E66003633A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B422741F8D8E66003633A8 /* main.swift */; };
 		43B4227C1F8D8E82003633A8 /* ArrayRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4227B1F8D8E82003633A8 /* ArrayRotation.swift */; };
+		43B4227E1F8DDF6F003633A8 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4227D1F8DDF6F003633A8 /* TwoSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		43B422711F8D8E66003633A8 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B422741F8D8E66003633A8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		43B4227B1F8D8E82003633A8 /* ArrayRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayRotation.swift; sourceTree = "<group>"; };
+		43B4227D1F8DDF6F003633A8 /* TwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				43B422741F8D8E66003633A8 /* main.swift */,
 				43B4227B1F8D8E82003633A8 /* ArrayRotation.swift */,
+				43B4227D1F8DDF6F003633A8 /* TwoSum.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			files = (
 				43B422751F8D8E66003633A8 /* main.swift in Sources */,
 				43B4227C1F8D8E82003633A8 /* ArrayRotation.swift in Sources */,
+				43B4227E1F8DDF6F003633A8 /* TwoSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +258,7 @@
 				43B4227A1F8D8E66003633A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
